@@ -7,10 +7,10 @@
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
     <a class="site-title" rel="author" href="{{ " /" | relative_url }}">
       {{ site.title | escape }}
-      <br>
+      <br />
       <img
         style="margin-bottom: 7px; display: block; width: 50%; max-width: 150px; min-width: 75px; border-radius: 50%; margin-right: auto; margin-left: auto;"
-        src="https://www.rodolfopietro.it/me.png">
+        src="https://www.rodolfopietro.it/me.png" />
     </a>
 
     {%- if titles_size > 0 -%}
